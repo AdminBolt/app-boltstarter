@@ -1,0 +1,14 @@
+/usr/local/bolt/apps/
+  ├── boltstarter/                   # Module name
+  │   ├── bin/                       # Executables or core logic
+  │   ├── config/                    # Configuration files
+  │   ├── logs/                      # Logs (optional)
+  │   ├── public/                    # Public assets (icons, screenshots, etc.)
+  │   ├── provision/                 # Provisioning tasks (install, uninstall, update, repair)
+  │   │   ├── install.sh             # Install script
+  │   │   ├── uninstall.sh           # Uninstall script
+  │   │   ├── update.sh              # Update script
+  │   │   └── repair.sh              # Repair script
+  │   ├── module.json                # Module metadata
+  │   ├── README.md                  # Documentation
+  │   └── LICENSE                    # License
