@@ -4,12 +4,11 @@
   │   ├── config/                    # Configuration files
   │   ├── logs/                      # Logs (optional)
   │   ├── public/                    # Public assets (icons, screenshots, etc.)
-  │   │   ├── icons/                 # Icons used by the module
-  │   │   │   ├── logo.png           # Logo icon
-  │   │   │   └── banner.png         # Banner or other icons
-  │   │   └── screenshots/           # Screenshots of the module
-  │   │       ├── screenshot1.png    # A screenshot of the module in use
-  │   │       └── screenshot2.png    # Another screenshot
+  │   │   ├── icons/                 # Module icons
+  │   │   ├── screenshots/           # Module screenshots
+  │   │   ├── css/                   # Additional assets (e.g., custom styles for iframe)
+  │   │   ├── js/                    # JavaScript for frontend functionality
+  │   │   └── images/                # Additional image assets
   │   ├── provision/                 # Provisioning tasks (install, uninstall, update, repair)
   │   │   ├── install.sh             # Install script
   │   │   ├── uninstall.sh           # Uninstall script
@@ -17,4 +16,21 @@
   │   │   └── repair.sh              # Repair script
   │   ├── module.json                # Module metadata
   │   ├── README.md                  # Documentation
-  │   └── LICENSE                    # License
+  │   ├── LICENSE                    # License
+  │   ├── requirements.txt           # Dependencies (for Python, NodeJS, etc.)
+  │   ├── app/                       # Source code for the module
+  │   │   ├── Admin/                 # Admin-specific PHP files
+  │   │   │   ├── index.php          # Admin dashboard PHP file
+  │   │   │   └── admin-functions.php # Admin-specific PHP functions
+  │   │   ├── Reseller/              # Reseller-specific PHP files
+  │   │   │   ├── index.php          # Reseller dashboard PHP file
+  │   │   │   └── reseller-functions.php # Reseller-specific PHP functions
+  │   │   └── Customer/              # Customer-specific PHP files
+  │   │       ├── index.php          # Customer dashboard PHP file
+  │   │       └── customer-functions.php # Customer-specific PHP functions
+  │   └── docs/                      # Documentation specific to the module
+  │       ├── installation.md        # Module installation guide
+  │       └── usage.md               # Usage instructions for the module
+  └── config/                        # Configuration for the module
+      ├── settings.yaml              # Global settings for the module
+      └── environment/               # Configuration files for different environments (e.g., dev, prod)
