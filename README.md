@@ -75,7 +75,7 @@ $ bolt-cli module:disable BoltStarter
 │   ├── module.json                # Module metadata
 │   ├── README.md                  # Documentation
 │   └── LICENSE                    # License
-```bash
+```
 
 ## Notes
 - **BoltStarter** does not perform any operational tasks but demonstrates the basic module structure and integration for **AdminBolt**.
