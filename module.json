@@ -2,10 +2,8 @@
   "name": "BoltStarter",
   "version": "1.0.0",
   "description": "A simple example module for AdminBolt Linux control panel.",
-  "author": "Your Name",
-  "dependencies": [
-    "nginx",
-    "python3",
-    "libssl-dev"
-  ]
+  "author": "AdminBolt",
+  "settings": {
+    "iframe": true
+  }
 }
