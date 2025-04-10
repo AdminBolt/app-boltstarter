@@ -52,6 +52,31 @@ $ bolt-cli module:status BoltStarter
 $ bolt-cli module:disable BoltStarter
 ```
 
+
+## Directory Structure
+```bash
+/usr/local/bolt/apps/
+├── boltstarter/                   # Module name
+│   ├── bin/                       # Executables or core logic
+│   ├── config/                    # Configuration files
+│   ├── logs/                      # Logs (optional)
+│   ├── public/                    # Public assets (icons, screenshots, etc.)
+│   │   ├── icons/                 # Icons used by the module
+│   │   │   ├── logo.png           # Logo icon
+│   │   │   └── banner.png         # Banner or other icons
+│   │   └── screenshots/           # Screenshots of the module
+│   │       ├── screenshot1.png    # A screenshot of the module in use
+│   │       └── screenshot2.png    # Another screenshot
+│   ├── provision/                 # Provisioning tasks (install, uninstall, update, repair)
+│   │   ├── install.sh             # Install script
+│   │   ├── uninstall.sh           # Uninstall script
+│   │   ├── update.sh              # Update script
+│   │   └── repair.sh              # Repair script
+│   ├── module.json                # Module metadata
+│   ├── README.md                  # Documentation
+│   └── LICENSE                    # License
+```bash
+
 ## Notes
 - **BoltStarter** does not perform any operational tasks but demonstrates the basic module structure and integration for **AdminBolt**.
 - It's an excellent starting point for developers who want to extend the AdminBolt control panel with custom functionalities.
