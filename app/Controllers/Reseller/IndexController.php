@@ -1,6 +1,7 @@
 <?php
-namespace App\Http\Controllers\Admin;
-class IndexController
+namespace Controllers\Reseller;
+class
+IndexController
 {
     public function index()
     {

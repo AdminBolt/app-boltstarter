@@ -1,5 +1,5 @@
 <?php
-namespace App\Http\Controllers\Customer;
+namespace Controllers\Customer;
 class
 IndexController
 {
