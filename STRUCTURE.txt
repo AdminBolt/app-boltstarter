@@ -4,6 +4,12 @@
   │   ├── config/                    # Configuration files
   │   ├── logs/                      # Logs (optional)
   │   ├── public/                    # Public assets (icons, screenshots, etc.)
+  │   │   ├── icons/                 # Icons used by the module
+  │   │   │   ├── logo.png           # Logo icon
+  │   │   │   └── banner.png         # Banner or other icons
+  │   │   └── screenshots/           # Screenshots of the module
+  │   │       ├── screenshot1.png    # A screenshot of the module in use
+  │   │       └── screenshot2.png    # Another screenshot
   │   ├── provision/                 # Provisioning tasks (install, uninstall, update, repair)
   │   │   ├── install.sh             # Install script
   │   │   ├── uninstall.sh           # Uninstall script
