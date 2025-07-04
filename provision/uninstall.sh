@@ -9,9 +9,9 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # Remove BoltStarter directory
-if [ -d "/usr/local/bolt/apps/boltstarter" ]; then
-    rm -rf /usr/local/bolt/apps/boltstarter
-    echo "BoltStarter directory removed."
-else
-    echo "BoltStarter directory not found."
-fi
+#if [ -d "/usr/local/bolt/plugins/bolt-starter" ]; then
+#    rm -rf /usr/local/bolt/plugins/bolt-starter
+#    echo "BoltStarter directory removed."
+#else
+#    echo "BoltStarter directory not found."
+#fi
