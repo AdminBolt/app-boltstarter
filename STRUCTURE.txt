@@ -18,16 +18,7 @@
   │   ├── README.md                  # Documentation
   │   ├── LICENSE                    # License
   │   ├── requirements.txt           # Dependencies (for Python, NodeJS, etc.)
-  │   ├── app/                       # Source code for the module
-  │   │   ├── Admin/                 # Admin-specific PHP files
-  │   │   │   ├── index.php          # Admin dashboard PHP file
-  │   │   │   └── admin-functions.php # Admin-specific PHP functions
-  │   │   ├── Reseller/              # Reseller-specific PHP files
-  │   │   │   ├── index.php          # Reseller dashboard PHP file
-  │   │   │   └── reseller-functions.php # Reseller-specific PHP functions
-  │   │   └── Customer/              # Customer-specific PHP files
-  │   │       ├── index.php          # Customer dashboard PHP file
-  │   │       └── customer-functions.php # Customer-specific PHP functions
+  │   ├── app/                       # Source code for the module, you can use any structure you prefer
   │   └── docs/                      # Documentation specific to the module
   │       ├── installation.md        # Module installation guide
   │       └── usage.md               # Usage instructions for the module
