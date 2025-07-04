@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "A simple example module for AdminBolt Linux control panel.",
   "author": "AdminBolt",
+  "license": "MIT",
+  "index": "app/laravel/public/index.php",
   "settings": {
     "iframe": true
   }
