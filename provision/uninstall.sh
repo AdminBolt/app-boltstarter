@@ -15,3 +15,7 @@ fi
 #else
 #    echo "BoltStarter directory not found."
 #fi
+
+rm -rf /usr/local/bolt/plugins/bolt-starter/app/laravel/vendor
+rm -rf /usr/local/bolt/plugins/bolt-starter/app/laravel/composer.lock
+rm -rf /usr/local/bolt/plugins/bolt-starter/app/laravel/database/database.sqlite
