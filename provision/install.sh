@@ -8,4 +8,14 @@ if [ "$(id -u)" -ne 0 ]; then
     exit 1
 fi
 
+# Install BoltStarter
+cd /usr/local/bolt/plugins/bolt-starter/app/laravel
+
+sudo wget https://getcomposer.org/download/latest-stable/composer.phar
+sudo COMPOSER_ALLOW_SUPERUSER=1 bolt-php composer.phar install
+
+bolt-php artisan key:generate
+bolt-php artisan migrate --force
+bolt-php artisan db:seed --force
+
 echo "Installation successful!"
