@@ -3,7 +3,7 @@
 **BoltStarter** is an example module designed to help you get started with module development for the **AdminBolt** Linux shared hosting control panel. It provides a simple template and framework to build your own custom modules by demonstrating essential integration steps, configuration examples, and basic functionalities.
 
 ## Features
-- **Template Module**: A foundation for creating new modules.
+- **Template Module**: A foundation for creating new apps.
 - **Easy Integration**: Seamlessly integrates with AdminBolt, serving as a template for more advanced features.
 - **Configuration Example**: Provides a basic example of how configuration files can be set up for modules.
 - **Demo-Only**: This module doesn't perform any real operations; it's purely for demonstration and educational purposes.
@@ -17,17 +17,17 @@
 
 To install **BoltStarter** into your AdminBolt environment, follow these steps:
 
-1. Clone the repository into the `modules` directory:
+1. Clone the repository into the `apps` directory:
     ```bash
     git clone https://github.com/yourusername/BoltStarter.git /usr/local/bolt/apps/boltstarter
     ```
 
 2. Run the installation command:
     ```bash
-    bolt-cli module:install BoltStarter
+    bolt-cli app:install BoltStarter
     ```
 
-3. After installation, **BoltStarter** should now appear as a module in the AdminBolt control panel.
+3. After installation, **BoltStarter** should now appear as a app in the AdminBolt control panel.
 
 ## Configuration
 
@@ -38,18 +38,18 @@ To update configurations, simply edit this file as per your requirements.
 
 ## Usage
 
-Once installed, you can interact with the module using AdminBolt's command-line tools.
+Once installed, you can interact with the app using AdminBolt's command-line tools.
 
 ### Example Commands:
 ```bash
-# Enable the module
-$ bolt-cli module:enable BoltStarter
+# Enable the app
+$ bolt-cli app:enable BoltStarter
 
-# Check the module status
-$ bolt-cli module:status BoltStarter
+# Check the app status
+$ bolt-cli app:status BoltStarter
 
-# Disable the module
-$ bolt-cli module:disable BoltStarter
+# Disable the app
+$ bolt-cli app:disable BoltStarter
 ```
 
 
@@ -72,7 +72,7 @@ $ bolt-cli module:disable BoltStarter
 │   │   ├── uninstall.sh           # Uninstall script
 │   │   ├── update.sh              # Update script
 │   │   └── repair.sh              # Repair script
-│   ├── module.json                # Module metadata
+│   ├── manifest.json              # Manifest metadata
 │   ├── README.md                  # Documentation
 │   └── LICENSE                    # License
 ```

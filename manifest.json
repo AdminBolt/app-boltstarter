@@ -1,7 +1,7 @@
 {
   "name": "BoltStarter",
-  "version": "1.0.0",
-  "description": "A simple example module for AdminBolt Linux control panel.",
+  "version": "1.0.1",
+  "description": "A simple example app for AdminBolt Linux control panel.",
   "author": "AdminBolt",
   "license": "MIT",
   "adminIndex": "app/laravel/public",
