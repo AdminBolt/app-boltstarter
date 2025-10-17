@@ -9,13 +9,13 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # Remove BoltStarter directory
-#if [ -d "/usr/local/bolt/plugins/bolt-starter" ]; then
-#    rm -rf /usr/local/bolt/plugins/bolt-starter
+#if [ -d "/usr/local/bolt/apps/bolt-starter" ]; then
+#    rm -rf /usr/local/bolt/apps/bolt-starter
 #    echo "BoltStarter directory removed."
 #else
 #    echo "BoltStarter directory not found."
 #fi
 
-rm -rf /usr/local/bolt/plugins/bolt-starter/app/laravel/vendor
-rm -rf /usr/local/bolt/plugins/bolt-starter/app/laravel/composer.lock
-rm -rf /usr/local/bolt/plugins/bolt-starter/app/laravel/database/database.sqlite
+rm -rf /usr/local/bolt/apps/bolt-starter/app/laravel/vendor
+rm -rf /usr/local/bolt/apps/bolt-starter/app/laravel/composer.lock
+rm -rf /usr/local/bolt/apps/bolt-starter/app/laravel/database/database.sqlite

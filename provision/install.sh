@@ -9,7 +9,7 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 # Install BoltStarter
-cd /usr/local/bolt/plugins/bolt-starter/app/laravel
+cd /usr/local/bolt/apps/bolt-starter/app/laravel
 
 sudo wget https://getcomposer.org/download/latest-stable/composer.phar
 sudo COMPOSER_ALLOW_SUPERUSER=1 bolt-php composer.phar install
